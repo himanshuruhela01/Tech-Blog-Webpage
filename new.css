@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: gray;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 25px;
+    height: 30vh;
+    width: 1469px;
+    font-family: 'Baloo Bhai 2', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header div p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin: 3px;
+    padding: 0px 10px;
+    font-size: 15px;
+    font-family: 'Baloo Bhai 2', sans-serif;
+    border: 1px solid gray;
+    border-radius: 7px;
+    background-color: rgba(240, 240, 233, 0.89);
+}
+
+button a {
+    color: black;
+    text-decoration: none;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: rgb(200, 111, 79);
+}
+
+.box {
+    /* background-color: aqua; */
+    height: 450px;
+    width: 1479px;
+    /* margin: 20px 0px; */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+.card {
+    border-radius: 7px;
+    background-color: white;
+    height: 400px;
+    width: 300px;
+    padding: 0 0 34px 0;
+    margin: 35px;
+}
+
+.image {
+    padding: 5px;
+
+}
+
+.image img {
+    border-radius: 7px;
+}
+
+.content {
+    padding: 7px 13px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.conten p {
+    font-size: 13px;
+    color: gray;
+}
+
+.but {
+    text-align: center;
+}
+
+.but button {
+    padding: 10px 25px;
+    border-radius: 16px;
+    background-color: rgb(170, 206, 237);
+    /* color: blue; */
+    font-size: 15px;
+    margin-top: 8px;
+    border: none;
+}
+
+.but button a {
+    color: blue;
+}
+
+.but button:hover {
+    background-color: rgb(198, 228, 255);
+}
+
+.container {
+    min-height: calc(100vh - 58px - 12vh);
+}
+
+footer {
+    background-color: black;
+    height: 12vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
