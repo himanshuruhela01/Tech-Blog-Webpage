@@ -1,3 +1,3 @@
-# first
+# Technical Blog Webpage
 
-edited
+Using Html, Css.
